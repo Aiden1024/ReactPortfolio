@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from "../assets/heroImage.jpg"
+import HeroImage from "../assets/heroImage.png"
 import {HiArrowRight} from 'react-icons/hi'
 
 const Home = () => {
