@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroImage from "../assets/heroImage.png"
 import {HiArrowRight} from 'react-icons/hi'
+import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
@@ -21,14 +22,14 @@ const Home = () => {
             </p>
 
             <div>
-                <button className='text-white w-fit px-6 py-3 my-2 flex
+                <Link to="portfolio" smooth duration={500} className='text-white w-fit px-6 py-3 my-2 flex
                     items-center rounded-md bg-gradient-to-r from-red-600 to-black-800
                     curor-pointer group'>
                     Portfolio
                     <span className='mx-2 group-hover:rotate-90 duration-300'  >
                         <HiArrowRight size={20}/>
                     </span>
-                </button>
+                </Link>
             </div>
         </div>
 
