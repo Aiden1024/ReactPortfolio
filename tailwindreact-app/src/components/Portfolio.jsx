@@ -36,7 +36,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className=" bg-gradient-to-b from-black to-gray-800 w-full text-white
+      className=" bg-gradient-to-b from-red-700 to-gray-800 w-full text-white
          md:h-screen"
     >
       <div
@@ -55,7 +55,7 @@ const Portfolio = () => {
 
         
 
-        <div className="grid sm: grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-2 px-0">
         {
             portfolios.map(({ id, src }) => (
             <div key={id} className=" shadow-md shadow-gray-600 rounded-lg">

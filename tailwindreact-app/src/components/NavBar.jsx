@@ -41,7 +41,7 @@ const NavBar = () => {
         {links.map(({id, link}) => (
           <li key={id} className='px-4 cursor-pointer capitalize
           font-medium text-gray-500 hover:scale-105 duration-200'>
-            <Link to={link}  smooth duration={500}> {link}</Link>
+            <Link to={link}  smooth duration={500} offset={-80}> {link}</Link>
         </li>
         ))}
 
@@ -57,7 +57,7 @@ const NavBar = () => {
         bg-gradient-to-b from-black to-gray-800 text-gray-500'>
         {links.map(({id, link}) => (
           <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl'>
-            <Link to={link} onClick={() => setNav(!nav)} smooth duration={500}> {link}</Link>
+            <Link to={link} onClick={() => setNav(!nav)} smooth duration={500} offset={-80}> {link}</Link>
   
         </li>
         ))}
