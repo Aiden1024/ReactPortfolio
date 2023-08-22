@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {FaBars, FaTimes} from "react-icons/fa"
 import{Link} from 'react-scroll'
+
 const NavBar = () => {
 
   const [nav, setNav] = useState(false);
@@ -32,9 +33,10 @@ const NavBar = () => {
     <div className='flex justify-between items-center
     w-full h-20 fixed text-white bg-black px-4'>
       <div>
-        <h1 className='text-5xl font-signature ml-2'>
+        <button className='text-5xl font-signature ml-2'
+         onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
           Crimson1
-        </h1>
+        </button>
       </div>
 
       <ul className='hidden md:flex'>
