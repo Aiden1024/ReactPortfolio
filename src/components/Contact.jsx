@@ -11,7 +11,7 @@ const Contact = () => {
             <p className=' py-6'>Submit the form below to get in touch with me</p>
         </div>
 
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between'>
             <form action="https://getform.io/f/5396b2d6-2cf7-497e-a46b-1ed383b6fc30" 
             method='POST'
             className=' flex flex-col w-full md:w-1/2'
@@ -29,20 +29,27 @@ const Contact = () => {
 
                 </textarea>
 
-                
+                <button className='group text-white bg-gradient-to-r from-red-800
+                   p-2 w-full md:hidden my-10 mx-auto flex items-center rounded-md'
+                  form='contactForm'>
+                    let's talk
+                    <span className='mx-2 group-hover:translate-x-60 duration-300 group-hover:opacity-0'>
+                        <MdKeyboardDoubleArrowRight size={20}/>
+                    </span>
+                </button>
 
             </form>
 
-            <div className='flex flex-col text-center h-full'>
+            <div className='md:flex flex-col text-center h-full hidden px-10 mx-auto w-1/3'>
               <div className=' text-6xl py-12'>
                 <h2 className='text-red-800'>TWINBLADES</h2>
                 <h2 >DEVELOP</h2>
               </div>
 
               <button className='group text-white bg-gradient-to-r from-red-800
-                 py-3 my-12 px-4 w-full h-full mx-auto flex items-center rounded-md'
+                 py-3 my-12 px-4 w-full mx-auto flex items-center rounded-md'
                   form='contactForm'>
-                    lets talk
+                    let's talk
                     <span className='mx-2 group-hover:translate-x-60 duration-300 group-hover:opacity-0'>
                         <MdKeyboardDoubleArrowRight size={20}/>
                     </span>
