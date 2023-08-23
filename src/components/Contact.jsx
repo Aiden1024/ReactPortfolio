@@ -12,7 +12,7 @@ const Contact = () => {
         </div>
 
         <div className='flex justify-between'>
-            <form action="https://getform.io/f/5396b2d6-2cf7-497e-a46b-1ed383b6fc30" 
+            <form action="https://getform.io/f/6b54f248-0548-4618-8d69-bf1059538f1e" 
             method='POST'
             className=' flex flex-col w-full md:w-1/2'
             id='contactForm'>
