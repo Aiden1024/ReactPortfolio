@@ -11,7 +11,7 @@ const Home = () => {
       items-center flex-col justify-center h-full px-4 text-white '>
         <div className='flex flex-col justify-center h-full'>
             <h2 className='text-7xl  font-bold text-white'>
-                I am a Front Developer
+                Welcome to my world
             </h2>
             <p className='text-gray-500 py-4 max-w-md'>
             Battlefield 1 brings you into the dawn of all-out
