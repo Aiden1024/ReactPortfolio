@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {FaBars, FaTimes} from "react-icons/fa"
 import{Link} from 'react-scroll'
+import {HiOutlineLanguage} from 'react-icons/hi2'
 
 const NavBar = () => {
 
@@ -31,7 +32,7 @@ const NavBar = () => {
 
   return (
     <div className='flex justify-between items-center
-    w-full h-20 fixed text-white bg-black px-4'>
+    w-full h-20 fixed text-white bg-black px-4 z-[5]'>
       <div>
         <button className='text-5xl font-signature ml-2'
          onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
@@ -46,6 +47,10 @@ const NavBar = () => {
             <Link to={link}  smooth duration={500} offset={-80}> {link}</Link>
         </li>
         ))}
+
+        <li className='px-4 cursor-pointer capitalize '>
+          < HiOutlineLanguage size={20} />
+        </li>
 
       </ul>
 
