@@ -3,9 +3,12 @@ import {FaBars, FaTimes} from "react-icons/fa"
 import{Link} from 'react-scroll'
 import {HiOutlineLanguage} from 'react-icons/hi2'
 
+
 const NavBar = () => {
 
   const [nav, setNav] = useState(false);
+
+  const [isEn, setEn] = useState(false);
 
   const links = [
     {
@@ -33,10 +36,17 @@ const NavBar = () => {
   return (
     <div className='flex justify-between items-center
     w-full h-20 fixed text-white bg-black px-4 z-[5]'>
-      <div>
+      <div className=' flex flex-row items-end justify-center'>
         <button className='text-5xl font-signature ml-2'
          onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
           Crimson1
+        </button>
+
+        <button className=' text-white text-sm hover:text-red-800 border-gray-500 p-2 duration-200'
+         onClick={()=> {setEn(!isEn)}}> 
+         <div className=' '>
+          {isEn ? "EN" : "中文"}
+         </div>
         </button>
       </div>
 
@@ -48,9 +58,10 @@ const NavBar = () => {
         </li>
         ))}
 
-        <li className='px-4 cursor-pointer capitalize '>
+        {/* <li className='px-4 cursor-pointer capitalize '>
           < HiOutlineLanguage size={20} />
-        </li>
+          
+        </li> */}
 
       </ul>
 
