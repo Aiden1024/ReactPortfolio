@@ -3,7 +3,7 @@ import {MdKeyboardDoubleArrowRight} from 'react-icons/md'
 
 const Contact = () => {
   return (
-    <div name="contact" className=' w-full h-screen bg-gradient-to-br
+    <div name="Contact" className=' w-full h-screen bg-gradient-to-br
      from-black via-black to-red-950 p-4'>
       <div className=' h-full justify-center max-w-screen-lg text-white mx-auto p-4'>
         <div className=' py-6'>
