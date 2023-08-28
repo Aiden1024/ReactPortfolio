@@ -6,12 +6,13 @@ import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import BottomBar from "./components/BottomBar";
-function App() {
+function App(props) {
+  const { lang } = props;
+
   return (
     <div className="App">
-      <NavBar/>
+      <NavBar lang = {lang}/>
       <Home  />
-
       <SocialLinks/>
       <About/>
       <Portfolio/>

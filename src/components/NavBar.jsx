@@ -1,14 +1,21 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import {FaBars, FaTimes} from "react-icons/fa"
 import{Link} from 'react-scroll'
-import {HiOutlineLanguage} from 'react-icons/hi2'
+// import {HiOutlineLanguage} from 'react-icons/hi2'
+import Locale from '../locales/index'
 
-
-const NavBar = () => {
-
+const NavBar = (props) => {
   const [nav, setNav] = useState(false);
-
   const [isEn, setEn] = useState(false);
+
+  const initLang = props.lang;
+
+  React.useEffect(() => {
+    if (initLang === "en") {
+      setEn(true);
+    } 
+  }, [initLang])
+
 
   const links = [
     {
