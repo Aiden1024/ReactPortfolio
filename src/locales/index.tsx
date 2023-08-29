@@ -5,13 +5,14 @@ export type { RequiredLocaleType } from "./cn";
 
 
 const DEFAULT_LANG = "en";
-const current_lang = localStorage.getItem("currLang");
+var current_lang = localStorage.getItem("currLang");
 
 export const AllLangs = [
     "en",
     "cn",
   ] as const;
 
+  //get user brower's language when currLang is not in the Localstorage
 export function getLanguage() {
     try {
       const gotLang =  navigator.language.toLowerCase();
@@ -37,7 +38,10 @@ export function changeLang(Lang: string) {
 }
 
 
-
+  if (current_lang === null) {
+    current_lang = getLanguage() as string;
+    localStorage.setItem('currLang', DEFAULT_LANG);
+  }
 
   const fallbackLang = (current_lang === "en" ? EN : CN);
   export default fallbackLang as typeof CN;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react'
+import React, { useState} from 'react'
 import {FaBars, FaTimes} from "react-icons/fa"
 import{Link} from 'react-scroll'
 // import {HiOutlineLanguage} from 'react-icons/hi2'
@@ -6,12 +6,8 @@ import Locale, { changeLang } from '../locales/index'
 
 const NavBar = (props) => {
   const [nav, setNav] = useState(false);
-  const [isEn, setEn] = useState(false);
 
   const initLang = props.lang;
-
-
-  var curr_lang = 'en';
 
   const links = [
     {
@@ -45,14 +41,16 @@ const NavBar = (props) => {
           Crimson1
         </button>
 
-        <button className=' text-white text-sm hover:text-red-800 border-gray-500 p-2 duration-200 
-        ' onClick={() => changeLang('cn')}> 
+        <button className={` ${localStorage.getItem("currLang") === "cn" ? " text-red-500 underline" : "text-white"}
+          text-sm hover:text-red-800 border-gray-500 p-2 duration-200 `}
+        onClick={() => changeLang('cn')}> 
          <div className=' '>
           中文
          </div>
         </button>
 
-        <button className=' text-white text-sm hover:text-red-800 border-gray-500 p-2 duration-200'
+        <button className={` ${localStorage.getItem("currLang") === "en" ? "text-red-500 underline" : "text-white"}
+          text-sm hover:text-red-800 border-gray-500 p-2 duration-200 `}
         onClick={() => changeLang('en')}> 
          <div className=' '>
           EN
