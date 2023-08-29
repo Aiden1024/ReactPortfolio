@@ -68,8 +68,8 @@ const Experience = () => {
          justify-center w-full h-full text-white'>
             <div className=' pb-8'>
                 <p className=' text-4xl font-bold border-b-4 
-                border-gray-500 p-2 inline'>Experience</p>
-                <p className=' py-6'>These are the technologies I've work with</p>
+                border-gray-500 p-2 inline'>{Locale.Experience.Title}</p>
+                <p className=' py-6'> {Locale.Experience.SubTitle} </p>
             </div>
 
             <div className=' w-full grid grid-cols-2 md:grid-cols-3 md:gap-8 gap-4

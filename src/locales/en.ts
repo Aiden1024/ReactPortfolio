@@ -16,31 +16,36 @@ const en : RequiredLocaleType = {
     },
 
     About: {
-        Title: "",
+        Title: "About",
         Education: "",
         WorkExp: "",
     },
 
     Portfolio: {
-        Title: "",
-        SubTitle: "",
-        Demo: "",
-        Code: "",
+        Title: "Portfolio",
+        SubTitle: "It's not a bug, it's a feature.",
+        Demo: "Demo",
+        Code: "Code",
+    },
+
+    Experience: {
+        Title: "Experience",
+        SubTitle: "Code never lies, comments sometimes do."
     },
 
     Contact: {
-        Title: "",
-        SubTitle: "",
+        Title: "Contact",
+        SubTitle: "Hellow, world.",
         Form: {
-            NameField: "",
-            EmailField: "",
-            Submit: ""
+            NameField: "Name",
+            EmailField: "Email",
+            Submit: "Let's talk"
         },
 
     SocialLinks: {
-        WeChat: "",
-        Github: "",
-        Mail:"",
+        WeChat: "WeChat",
+        Github: "Github",
+        Mail:"Email",
         },
     }
 }

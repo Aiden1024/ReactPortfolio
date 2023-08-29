@@ -10,7 +10,7 @@ function About() {
 
         <div className=' pb-8'>
             <p className=' text-4xl font-bold inline border-b-4
-             border-gray-500'>About</p>
+             border-gray-500'>{Locale.About.Title}</p>
         </div>
             <p className=' text-xl mt-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, modi sunt doloremque ex enim deserunt, dolor vel veritatis unde tempore officia architecto eos ea nostrum velit dolorum itaque minus aperiam consequatur odit nam porro? Enim porro velit officia laborum tempore obcaecati? Quis quas deserunt eaque, adipisci accusamus corrupti expedita cum!</p>
 

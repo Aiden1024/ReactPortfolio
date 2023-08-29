@@ -303,6 +303,7 @@ module.exports = {
     },
     fontFamily: {
       signature: 'Great Vibes',
+      chinese: 'Noto Sans SC',
       sans: [
         'ui-sans-serif',
         'system-ui',

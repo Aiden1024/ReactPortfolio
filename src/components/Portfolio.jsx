@@ -50,9 +50,9 @@ const Portfolio = () => {
             className=" text-4xl font-bold inline border-b-4
              border-gray-500"
           >
-            Portfolio
+            {Locale.Portfolio.Title}
           </p>
-          <p className=" py-6">Check out some of my work right here</p>
+          <p className=" py-6">{Locale.Portfolio.SubTitle}</p>
         </div>
 
         
@@ -69,10 +69,10 @@ const Portfolio = () => {
                 />
                 <div className="flex items-center justify-center">
                   <button className=" w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
-                    Demo
+                    {Locale.Portfolio.Demo}
                   </button>
                   <button className=" w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
-                    Code
+                    {Locale.Portfolio.Code}
                   </button>
                 </div>
               </div>
