@@ -6,14 +6,12 @@ import {BrowserRouter} from 'react-router-dom'
 import { getLanguage } from './locales/index.tsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const lang = getLanguage();
-console.log("IN THE APP======");
-console.log(lang);
+
 
 
 root.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
-     <App lang={lang} />
+     <App />
    </BrowserRouter>
 );
 

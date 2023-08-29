@@ -7,26 +7,22 @@ import Locale from '../locales/index'
 const Home = () => {
   return (
     // To transfer screen template, mobile: flex-col, pc: md:flex-row
-    <div name={Locale.NavBar.NavHome} className='h-screen w-full bg-gradient-to-br from-red-950 via-black to-gray-800'>
+    <div name={Locale.NavBar.NavHome} className='h-screen w-full bg-gradient-to-br from-red-900 via-black to-gray-800'>
       <div className='max-w-screen-lg mx-auto flex md:flex-row 
       items-center flex-col justify-center h-full px-4 text-white '>
         <div className='flex flex-col justify-center h-full'>
             <h2 className='text-7xl  font-bold text-white'>
-                TWINBLADES <span className=' text-red-500'>DEVELOP</span>
+            <span className=' text-red-500'>TWINBLADES</span> DEVELOP
             </h2>
-            <p className='text-gray-500 py-4 max-w-md'>
-            Battlefield 1 brings you into the dawn of all-out
-             warfare, where no battle is ever the same. 
-             Join the ranks of Battlefield 1 Revolution and 
-             revolutionize your play with access to new maps, 
-             new modes, and new conflicts.
-            </p>
+            <text className=' text-gray-500 py-4 max-w-md whitespace-pre-wrap'>
+            {Locale.Home.SubTitle}
+            </text>
 
             <div>
                 <Link to="portfolio" smooth duration={500} offset={-80} className='text-white w-fit px-6 py-3 my-2 flex
                     items-center rounded-md bg-gradient-to-r from-red-600
                     curor-pointer group cursor-pointer'>
-                    Portfolio
+                    {Locale.Home.Button }
                     <span className='mx-2 group-hover:rotate-90 duration-300'  >
                         <HiArrowRight size={20}/>
                     </span>
