@@ -1,41 +1,60 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import {FaBars, FaTimes} from "react-icons/fa"
 import{Link} from 'react-scroll'
+// import {HiOutlineLanguage} from 'react-icons/hi2'
+import Locale, { changeLang } from '../locales/index'
 
-const NavBar = () => {
-
+const NavBar = (props) => {
   const [nav, setNav] = useState(false);
+
+  const initLang = props.lang;
 
   const links = [
     {
       id:1,
-      link:'home'
+      link:Locale.NavBar.NavHome
     },
     {
       id:2,
-      link:'about'
+      link:Locale.NavBar.NavAbout
     },
     {
       id:3,
-      link:'portfolio'
+      link:Locale.NavBar.NavPortfolio
     },
     {
       id:4,
-      link:'experience'
+      link:Locale.NavBar.NavExp
     },
     {
       id:5,
-      link:'contact'
+      link:Locale.NavBar.NavContact
     },
   ]
 
   return (
     <div className='flex justify-between items-center
-    w-full h-20 fixed text-white bg-black px-4'>
-      <div>
+    w-full h-20 fixed text-white bg-black px-4 z-[5]'>
+      <div className=' flex flex-row items-end justify-center'>
         <button className='text-5xl font-signature ml-2'
          onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
           Crimson1
+        </button>
+
+        <button className={` ${localStorage.getItem("currLang") === "cn" ? " text-red-500 underline" : "text-white"}
+          text-sm hover:text-red-800 border-gray-500 p-2 duration-200 `}
+        onClick={() => changeLang('cn')}> 
+         <div className=' '>
+          中文
+         </div>
+        </button>
+
+        <button className={` ${localStorage.getItem("currLang") === "en" ? "text-red-500 underline" : "text-white"}
+          text-sm hover:text-red-800 border-gray-500 p-2 duration-200 `}
+        onClick={() => changeLang('en')}> 
+         <div className=' '>
+          EN
+         </div>
         </button>
       </div>
 
@@ -46,6 +65,7 @@ const NavBar = () => {
             <Link to={link}  smooth duration={500} offset={-80}> {link}</Link>
         </li>
         ))}
+
 
       </ul>
 

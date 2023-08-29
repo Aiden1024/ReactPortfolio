@@ -5,17 +5,19 @@ import About from './components/About'
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
-function App() {
+import BottomBar from "./components/BottomBar";
+function App(props) {
+
   return (
     <div className="App">
-      <NavBar/>
+      <NavBar />
       <Home  />
-
       <SocialLinks/>
       <About/>
       <Portfolio/>
       <Experience/>
       <Contact/>
+      <BottomBar/>
     </div>
   );
 }
