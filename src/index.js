@@ -10,6 +10,7 @@ const lang = getLanguage();
 console.log("IN THE APP======");
 console.log(lang);
 
+
 root.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
      <App lang={lang} />
