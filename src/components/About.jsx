@@ -1,8 +1,9 @@
 import React from 'react'
+import Locale from '../locales/index'
 
 function About() {
   return (
-    <div name="about" className=' w-full h-screen bg-gradient-to-bl
+    <div name={Locale.NavBar.NavAbout} className=' w-full h-screen bg-gradient-to-bl
      from-gray-800 via-black to-black text-white'>
       <div className=' max-w-screen-lg p-4 mx-auto flex flex-col
         w-full h-full'>

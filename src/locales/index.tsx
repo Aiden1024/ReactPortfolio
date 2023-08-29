@@ -5,7 +5,7 @@ export type { RequiredLocaleType } from "./cn";
 
 
 const DEFAULT_LANG = "en";
-const current_lang = getLanguage();
+const current_lang = localStorage.getItem("currLang");
 
 export const AllLangs = [
     "en",
@@ -16,6 +16,7 @@ export function getLanguage() {
     try {
       const gotLang =  navigator.language.toLowerCase();
       for (const option of AllLangs) {
+        // if en-us has en, cn has cn etc.
         if (gotLang.includes(option)) {
           return option;
         }
@@ -26,8 +27,17 @@ export function getLanguage() {
     }
   }
 
+export function changeLang(Lang: string) {
+    for (const option of AllLangs) {
+        if (Lang.includes(option)) {
+          localStorage.setItem('currLang', Lang);
+          window.location.reload();
+        }
+      }
+}
+
+
+
 
   const fallbackLang = (current_lang === "en" ? EN : CN);
-  console.log("aaaaaaaaaaaaaaaa index tsx fallbacklang")
-  console.log(fallbackLang)
   export default fallbackLang as typeof CN;

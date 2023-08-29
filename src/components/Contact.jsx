@@ -1,9 +1,10 @@
 import React from 'react'
 import {MdKeyboardDoubleArrowRight} from 'react-icons/md'
+import Locale from '../locales/index'
 
 const Contact = () => {
   return (
-    <div name="Contact" className=' w-full h-screen bg-gradient-to-br
+    <div name={Locale.NavBar.NavContact} className=' w-full h-screen bg-gradient-to-br
      from-black via-black to-red-950 p-4'>
       <div className=' h-full justify-center max-w-screen-lg text-white mx-auto p-4'>
         <div className=' py-6'>

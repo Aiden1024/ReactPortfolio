@@ -5,6 +5,8 @@ import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import Locale from '../locales/index'
+
 const Portfolio = () => {
   const portfolios = [
     {
@@ -35,7 +37,7 @@ const Portfolio = () => {
 
   return (
     <div
-      name="portfolio"
+      name={Locale.NavBar.NavPortfolio}
       className=" bg-gradient-to-b from-black to-gray-800 w-full text-white
          md:h-screen"
     >

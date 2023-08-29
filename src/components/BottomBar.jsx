@@ -4,8 +4,8 @@ import {SiTailwindcss} from 'react-icons/si'
 
 const BottomBar = () => {
   return (
-    <div className=' bg-black text-white mb-0'>
-      <div className=' flex flex-row justify-center items-center'>
+    <div className=' bg-black text-white h-max'>
+      <div className=' flex flex-row justify-center items-center '>
         Powered by
         <span className=' px-1 animate-spin-slow'>
             < GrReactjs/> 
