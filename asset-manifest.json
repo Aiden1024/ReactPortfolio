@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.525b8f32.css",
-    "main.js": "/ReactPortfolio/static/js/main.c23357ee.js",
+    "main.css": "/ReactPortfolio/static/css/main.01033c51.css",
+    "main.js": "/ReactPortfolio/static/js/main.3d217f94.js",
     "static/media/reactParallax.jpg": "/ReactPortfolio/static/media/reactParallax.6f0d02a0def925fc9d7f.jpg",
     "static/media/reactWeather.jpg": "/ReactPortfolio/static/media/reactWeather.a1988356c4f5a620716e.jpg",
     "static/media/graphql.png": "/ReactPortfolio/static/media/graphql.fc6b9451733c620ceb86.png",
@@ -18,11 +18,11 @@
     "static/media/css.png": "/ReactPortfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/ReactPortfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/ReactPortfolio/index.html",
-    "main.525b8f32.css.map": "/ReactPortfolio/static/css/main.525b8f32.css.map",
-    "main.c23357ee.js.map": "/ReactPortfolio/static/js/main.c23357ee.js.map"
+    "main.01033c51.css.map": "/ReactPortfolio/static/css/main.01033c51.css.map",
+    "main.3d217f94.js.map": "/ReactPortfolio/static/js/main.3d217f94.js.map"
   },
   "entrypoints": [
-    "static/css/main.525b8f32.css",
-    "static/js/main.c23357ee.js"
+    "static/css/main.01033c51.css",
+    "static/js/main.3d217f94.js"
   ]
 }
