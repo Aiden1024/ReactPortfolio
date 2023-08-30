@@ -33,7 +33,7 @@ function About() {
             </a>
             <h2 >{Locale.About.Education.Edu1}</h2>
           </div>
-          <p className=' whitespace-pre-wrap'>
+          <p className=' whitespace-pre-wrap pt-2 sm:pt-0'>
           {Locale.About.Education.Description1}
           </p>
         </div>
@@ -47,7 +47,7 @@ function About() {
             </a>
             <h2 >{Locale.About.Education.Edu2}</h2>
           </div>
-          <p className=' whitespace-pre-wrap'>
+          <p className=' whitespace-pre-wrap pt-2 sm:pt-0'>
             {Locale.About.Education.Description2}
           </p>
         </div>
@@ -68,7 +68,7 @@ function About() {
             </a>
             <h2 >{Locale.About.WorkExp.Type}</h2>
           </div>
-          <p className=' whitespace-pre-wrap'>
+          <p className=' whitespace-pre-wrap pt-2 sm:pt-0'>
             {Locale.About.WorkExp.Description1}
           </p>
         </div>

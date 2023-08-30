@@ -11,7 +11,7 @@ const Home = () => {
       <div className='max-w-screen-lg mx-auto flex md:flex-row 
       items-center flex-col justify-center h-full px-4 text-white '>
         <div className='flex flex-col justify-center h-full'>
-            <h2 className='sm:text-7xl text-4xl font-bold text-white'>
+            <h2 className='sm:text-7xl text-4xl font-bold text-white flex flex-col'>
             <span className=' text-red-500'>TWINBLADES</span> DEVELOP
             </h2>
             <text className=' text-gray-300 py-4 max-w-md whitespace-pre-wrap'>

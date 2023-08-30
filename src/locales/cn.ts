@@ -35,7 +35,7 @@ const cn = {
 
     Portfolio: {
         Title: "作品集",
-        SubTitle: "代码不会欺骗，但注释有时会。",
+        SubTitle: "代码不会欺骗，但有时注释会。",
         Demo: "演示",
         Code: "代码",
     },
