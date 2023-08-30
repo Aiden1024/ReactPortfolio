@@ -11,7 +11,7 @@ const en : RequiredLocaleType = {
 
     Home: {
         Title: "",
-        SubTitle: "Change, everything you are, and everything you were. \nButterflies and Hurrican",
+        SubTitle: "\"You can't live on the edge all your life Faith, sooner or later, you'll have to jump\" - Jacknife, Mirror's Edge",
         Button: "Portfolio"
     },
 
@@ -23,14 +23,14 @@ const en : RequiredLocaleType = {
 
     Portfolio: {
         Title: "Portfolio",
-        SubTitle: "It's not a bug, it's a feature.",
+        SubTitle: "Code never lies, comments sometimes do.",
         Demo: "Demo",
         Code: "Code",
     },
 
     Experience: {
         Title: "Experience",
-        SubTitle: "Code never lies, comments sometimes do."
+        SubTitle: "You do not learn how to hack. You hack to learn."
     },
 
     Contact: {

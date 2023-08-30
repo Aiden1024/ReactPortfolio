@@ -9,7 +9,7 @@ const cn = {
 
     Home: {
         Title: "",
-        SubTitle: "浩瀚宇宙中的粒粒星尘，茫茫人海间的芸芸众生。总会有地上的生灵，敢于直面雷霆的威光。我是平凡之人，但我绝不平庸。",
+        SubTitle: "浩瀚宇宙中的粒粒星尘，茫茫人海间的芸芸众生。\n总会有地上的生灵，敢于直面雷霆的威光。\n我是平凡之人，但绝不平庸。",
         Button: "作品集"
     },
 
@@ -21,22 +21,22 @@ const cn = {
 
     Portfolio: {
         Title: "作品集",
-        SubTitle: "最初的鸟儿是不会飞翔的，飞翔是它们勇敢跃入峡谷的奖励。",
+        SubTitle: "代码不会欺骗，但注释有时会。",
         Demo: "演示",
         Code: "代码",
     },
 
     Experience: {
         Title: "开发经验",
-        SubTitle: "只要不失去你的崇高，整个世界都会为你敞开。"
+        SubTitle: "宇宙的尽头，就是去码头整点薯条。"
     },
 
     Contact: {
-        Title: "联系我",
+        Title: "联系",
         SubTitle: "你好，世界。",
         Form: {
-            NameField: "请输入姓名",
-            EmailField: "请输入电子邮箱",
+            NameField: "姓名",
+            EmailField: "邮箱",
             Submit: "传达"
         },
     SocialLinks: {

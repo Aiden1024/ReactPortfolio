@@ -1,6 +1,9 @@
 import React from 'react'
 import {MdKeyboardDoubleArrowRight} from 'react-icons/md'
 import Locale from '../locales/index'
+import {GrReactjs} from 'react-icons/gr'
+import {SiTailwindcss} from 'react-icons/si'
+import BottomBar from './BottomBar'
 
 const Contact = () => {
   return (
@@ -57,6 +60,8 @@ const Contact = () => {
                 </button>
             </div>
         </div>
+        
+       
 
 
       </div>
