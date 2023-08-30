@@ -72,8 +72,8 @@ const Experience = () => {
                 <p className=' py-6'> {Locale.Experience.SubTitle} </p>
             </div>
 
-            <div className=' w-full grid grid-cols-2 md:grid-cols-3 md:gap-8 gap-4
-             text-center px-4 sm:px-0'>
+            <div className=' w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 md:gap-8 gap-4
+             text-center sm:px-0'>
                 {
                     techs.map(({id, src, title, style}) =>(
                     <div key={id} className={` shadow-md hover:scale-105 duration-500

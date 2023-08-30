@@ -17,8 +17,22 @@ const en : RequiredLocaleType = {
 
     About: {
         Title: "About",
-        Education: "",
-        WorkExp: "",
+        Education: {
+            Title:"Education",
+            School1:"University of Toronto - Toronto, Canada",
+            Edu1:"Undergraduate",
+            Description1:"University Ranking: Global No.21, Canada No.1\nGPA: (3.54/4.0)\nProgram: Computer Science & Management Double Major (Disqualified Rate: 75%)\nDegree: Honours Bachelor of Science - High Distinction",
+            School2:"Sir Winston Churchill Secondary - Vancouver, Canada",
+            Edu2:"High School",
+            Description2:"Representing school to attend UBC Physics Olympics\nEstablished Python Club and has 20+ student "
+
+        },
+        WorkExp: {
+            Title:"Work Experience",
+            Job1:"China United Television(CUTV) - Shenzhen, China",
+            Type:"Internship",
+            Description1:"Frontend Develop: Use of Vue, React in the web deployment."
+        },
     },
 
     Portfolio: {
