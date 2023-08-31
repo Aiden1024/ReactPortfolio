@@ -4,10 +4,8 @@ import{Link} from 'react-scroll'
 // import {HiOutlineLanguage} from 'react-icons/hi2'
 import Locale, { changeLang } from '../locales/index'
 
-const NavBar = (props) => {
+const NavBar = () => {
   const [nav, setNav] = useState(false);
-
-  const initLang = props.lang;
 
   const links = [
     {

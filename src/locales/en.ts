@@ -25,12 +25,12 @@ const en : RequiredLocaleType = {
             Description1:"University Ranking: Global No.21, Canada No.1\nGPA: (3.54/4.0)\nProgram: Computer Science & Management Double Major (Disqualified Rate: 75%)\nDegree: Honours Bachelor of Science - High Distinction",
             School2:"Sir Winston Churchill Secondary - Vancouver, Canada",
             Edu2:"High School",
-            Description2:"Has Represented school to attend UBC Physics Olympics\nFormed Python Club at Grade 12 and owns 20+ student "
+            Description2:"Has Represented school to attend UBC Physics Olympics\nFormed Python Club and owned 20+ student "
 
         },
         WorkExp: {
             Title:"Work Experience",
-            Job1:"Shenzhen Media Group, CUTV - Shenzhen, China",
+            Job1:"Shenzhen Media Group CUTV- Shenzhen, China",
             Type:"Internship",
             Description1:"Frontend Develop: Use of Vue, React in the web deployment."
         },
