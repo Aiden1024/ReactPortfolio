@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Locale from '../locales/index';
 
 const SocialLinks = () => {
   const links = [
@@ -9,7 +10,7 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30}/>
+          {Locale.SocialLinks.WeChat} <FaLinkedin size={30}/>
         </>
       ),
 
@@ -20,7 +21,7 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          Github <FaGithub size={30}/>
+          {Locale.SocialLinks.Github} <FaGithub size={30}/>
         </>
       ),
 
@@ -30,7 +31,7 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30}/>
+          {Locale.SocialLinks.Mail} <HiOutlineMail size={30}/>
         </>
       ),
 
@@ -40,11 +41,11 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30}/>
+          {Locale.SocialLinks.Resume} <BsFillPersonLinesFill size={30}/>
         </>
       ),
 
-      href: "./resume.pdf",
+      href: "/resume_cn.pdf",
       style: 'rounded-br-md',
       download: true,
       
@@ -52,7 +53,7 @@ const SocialLinks = () => {
   ]
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden md:flex flex-col top-[35%] left-0 fixed">
       <ul>
         
         {links.map(({id, child, href, style, download}) => (

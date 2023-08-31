@@ -57,12 +57,15 @@ const en : RequiredLocaleType = {
             Submit: "Let's talk"
         },
 
+    },
+
     SocialLinks: {
         WeChat: "WeChat",
         Github: "Github",
         Mail:"Email",
-        },
-    }
+        Resume:"Resume"
+    },
+    
 }
 
 export default en;

@@ -14,7 +14,7 @@ const cn = {
     },
 
     About: {
-        Title: "关于我",
+        Title: "个人简介",
         Subtitle:"详细名称可查看英文版网页",
         Education: {
             Title:"教育背景",
@@ -47,20 +47,23 @@ const cn = {
     },
 
     Contact: {
-        Title: "联系",
+        Title: "联系方式",
         SubTitle: "你好，世界。",
         Form: {
             NameField: "姓名",
             EmailField: "邮箱",
             Submit: "传达"
         },
+    },
+
     SocialLinks: {
         WeChat: "微信",
         Github: "Github",
-        Mail:"邮箱"
-        }
-        
+        Mail:"邮箱",
+        Resume:"简历",
     }
+        
+    
 }
 
 export type RequiredLocaleType = typeof cn;

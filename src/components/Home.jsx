@@ -32,7 +32,7 @@ const Home = () => {
 
         <div>
             <img src={HeroImage} alt="profile pic" 
-            className=' mx-auto md:flex w-full  hidden px-2
+            className=' mx-auto lg:flex w-full  hidden px-2
              hover:scale-105 duration-300 ' 
             style={{width: 600}}/>
         </div>

@@ -5,7 +5,7 @@ import {PiGraduationCapDuotone, PiSuitcaseDuotone} from 'react-icons/pi'
 
 function About() {
   return (
-    <div name={Locale.NavBar.NavAbout} className=' w-full h-screen bg-gradient-to-bl
+    <div name={Locale.NavBar.NavAbout} className=' w-full h-max sm:h-screen bg-gradient-to-bl
      from-gray-800 via-black to-black text-white'>
       <div className=' max-w-screen-lg p-4 mx-auto flex flex-col
         w-full h-full'>
@@ -13,7 +13,7 @@ function About() {
         <div className=' pb-8'>
             <p className=' text-4xl font-bold inline border-b-4
              border-gray-500'>{Locale.About.Title}</p>
-             <div className=' py-4'>
+             <div className=' pt-4'>
               {Locale.About.Subtitle}
              </div>
         </div>
