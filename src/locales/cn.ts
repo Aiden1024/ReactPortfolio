@@ -47,11 +47,11 @@ const cn = {
     },
 
     Contact: {
-        Title: "联系方式",
+        Title: "共鸣",
         SubTitle: "你好，世界。",
         Form: {
-            NameField: "姓名",
-            EmailField: "邮箱",
+            NameField: "你的名字",
+            EmailField: "电子邮箱",
             Submit: "传达"
         },
     },

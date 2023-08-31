@@ -5,17 +5,20 @@ import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import BcHub from "../assets/portfolio/BcHub.png";
+import TBDV from "../assets/portfolio/TBDV.jpg";
+
 import Locale from '../locales/index'
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: TBDV,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: BcHub,
     },
     {
       id: 3,
@@ -57,7 +60,7 @@ const Portfolio = () => {
 
         
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 ">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
         {
             portfolios.map(({ id, src }) => (
             <div key={id} className=" shadow-md shadow-gray-600 rounded-lg">

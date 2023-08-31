@@ -1,7 +1,7 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill, BsWechat } from "react-icons/bs";
 import Locale from '../locales/index';
 
 const SocialLinks = () => {
@@ -10,11 +10,11 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          {Locale.SocialLinks.WeChat} <FaLinkedin size={30}/>
+          {Locale.SocialLinks.WeChat} <BsWechat size={30}/>
         </>
       ),
 
-      href: 'https://linkedin.com',
+      href: '/WeChatIDCard.jpg',
       style: 'rounded-tr-md'
     },
     {
@@ -53,13 +53,13 @@ const SocialLinks = () => {
   ]
 
   return (
-    <div className="hidden md:flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden md:flex flex-col top-[35%] left-0 fixed z-10">
       <ul>
         
         {links.map(({id, child, href, style, download}) => (
-          <li key={id} className={`flex justify-between items-center w-40 h-14 px-4 bg-gray-800 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] shadow-md ${style}` }>
+          <li key={id} className={` flex justify-between items-center w-40 h-14 px-4 bg-gray-700 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] shadow-lg ${style}` }>
            <a href={href} className="flex justify-between items-center w-full
-            text-white" 
+             text-red-50 z-10" 
             download={download}
             target="_blank"
             rel="noreferrer"
