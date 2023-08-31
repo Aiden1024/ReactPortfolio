@@ -65,11 +65,11 @@ const Experience = () => {
     <div name={Locale.NavBar.NavExp} className=' bg-gradient-to-b from-gray-800
      to-black w-full h-screen'>
         <div className=' max-w-screen-lg mx-auto p-4 flex flex-col
-         justify-center w-full h-full text-white'>
+         w-full h-full text-white'>
             <div className=' pb-8'>
                 <p className=' text-4xl font-bold border-b-4 
-                border-gray-500 p-2 inline'>{Locale.Experience.Title}</p>
-                <p className=' py-6'> {Locale.Experience.SubTitle} </p>
+                border-gray-500 inline'>{Locale.Experience.Title}</p>
+                <p className=' py-4'> {Locale.Experience.SubTitle} </p>
             </div>
 
             <div className=' w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 md:gap-8 gap-4

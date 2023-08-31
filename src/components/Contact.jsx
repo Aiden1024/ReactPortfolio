@@ -10,9 +10,9 @@ const Contact = () => {
     <div name={Locale.NavBar.NavContact} className=' w-full h-screen bg-gradient-to-br
      from-black via-black to-red-950 p-4'>
       <div className=' h-full justify-center max-w-screen-lg text-white mx-auto p-4'>
-        <div className=' py-6'>
+        <div className=' '>
             <p className=' text-4xl font-bold inline border-b-4 border-gray-500'>{Locale.Contact.Title}</p>
-            <p className=' py-6'>{Locale.Contact.SubTitle}</p>
+            <p className=' py-4'>{Locale.Contact.SubTitle}</p>
         </div>
 
         <div className='flex justify-between'>

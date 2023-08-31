@@ -15,6 +15,7 @@ const cn = {
 
     About: {
         Title: "关于我",
+        Subtitle:"详细名称可查看英文版网页",
         Education: {
             Title:"教育背景",
             School1:"多伦多大学 - 加拿大，多伦多",
@@ -27,7 +28,7 @@ const cn = {
         },
         WorkExp: {
             Title:"工作经历",
-            Job1:"华夏城视网络电视股份有限公司 - 中国，深圳",
+            Job1:"深圳广电集团，华夏城视网络电视股份有限公司 - 中国，深圳",
             Type:"实习",
             Description1:"前端开发：Vue, React的架构了解与使用。"
         },

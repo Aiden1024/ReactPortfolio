@@ -74,11 +74,11 @@ const NavBar = (props) => {
       </div>
 
       {/* only if nav is true, SHOW */}
-      {nav && <ul className='flex flex-col justify-center 
-        items-center absolute top-0 left-0 w-full h-screen 
-        bg-gradient-to-b from-black to-gray-800 text-gray-300'>
+      {<ul className={`flex flex-col justify-center 
+        items-center absolute top-0 right-0 w-full h-screen 
+        bg-gradient-to-br from-black via-gray-800 to-red-900 text-gray-300 ${nav ? 'translate-x-0' : 'translate-x-full' } ease-in-out duration-300`}>
         {links.map(({id, link}) => (
-          <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl'>
+          <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl focus:text-red-800'>
             <Link to={link} onClick={() => setNav(!nav)} smooth duration={500} offset={-80}> {link}</Link>
   
         </li>

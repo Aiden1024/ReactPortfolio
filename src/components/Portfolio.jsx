@@ -52,12 +52,12 @@ const Portfolio = () => {
           >
             {Locale.Portfolio.Title}
           </p>
-          <p className=" py-6">{Locale.Portfolio.SubTitle}</p>
+          <p className=" py-4">{Locale.Portfolio.SubTitle}</p>
         </div>
 
         
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-2 px-0">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 ">
         {
             portfolios.map(({ id, src }) => (
             <div key={id} className=" shadow-md shadow-gray-600 rounded-lg">
