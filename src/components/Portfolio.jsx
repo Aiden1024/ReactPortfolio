@@ -41,8 +41,8 @@ const Portfolio = () => {
   return (
     <div
       name={Locale.NavBar.NavPortfolio}
-      className=" bg-gradient-to-b from-black to-gray-800 w-full text-white
-         md:h-screen"
+      className=" bg-dark-gray w-full text-white
+      min-h-screen "
     >
       <div
         className=" max-w-screen-lg p-4 mx-auto flex flex-col justify-center 
@@ -63,22 +63,40 @@ const Portfolio = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
         {
             portfolios.map(({ id, src }) => (
-            <div key={id} className=" shadow-md shadow-gray-600 rounded-lg">
+            <div key={id} className=" hover:shadow-lg hover:shadow-rose-700 duration-300 rounded-lg overflow-hidden bg-[#212121]">
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md duration-200
-                     hover:scale-105"
+                  className=" duration-200
+                     hover:scale-105 ease-in-out  "
                 />
-                <div className="flex items-center justify-center">
+
+                <div className=" px-4 py-4">
+                  <h2 className=" text-2xl font-bold">Title Titl Title Title e</h2>
+                  <h2 className=" text-md">Subtitle1: abc asdjifk ghsgso gsgss</h2>
+                  <h2 className=" text-md">Subtitle2: fshfjk, fsdjfhs ,fsdfs </h2>
+                  <p className=" text-sm text-gray-300 py-4">Paragrah ah Paragrah ah agrah ah Paragrah ah Paragrah ah Paragrah ah </p>
+                  
+                  <div className="flex flex-row justify-start items-center">
+                    <button className=" bg-white hover:bg-gray-600 hover:text-white duration-300 text-black font-bold py-2 px-4 mr-4 rounded-full">
+                      {Locale.Portfolio.Demo}
+                    </button>
+                    <button className=" bg-transparent hover:text-pink-700 underline-offset-2 duration-300 text-white font-bold py-2 px-4 rounded-full">
+                      {Locale.Portfolio.Code}
+                    </button>
+                  </div>
+                </div>
+
+
+                {/* <div className="flex items-center justify-center">
                   <button className=" w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
                     {Locale.Portfolio.Demo}
                   </button>
                   <button className=" w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
                     {Locale.Portfolio.Code}
                   </button>
-                </div>
-              </div>
+                </div> */}
+            </div>
             ))
         }
         </div>

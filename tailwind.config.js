@@ -133,6 +133,7 @@ module.exports = {
     },
     caretColor: ({ theme }) => theme('colors'),
     colors: ({ colors }) => ({
+      'dark-gray': '#121212',
       inherit: colors.inherit,
       current: colors.current,
       transparent: colors.transparent,

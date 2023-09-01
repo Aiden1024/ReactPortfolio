@@ -7,7 +7,7 @@ import Locale from '../locales/index'
 const Home = () => {
   return (
     // To transfer screen template, mobile: flex-col, pc: md:flex-row
-    <div name={Locale.NavBar.NavHome} className='h-screen w-full bg-gradient-to-br from-red-900 via-black to-gray-800'>
+    <div name={Locale.NavBar.NavHome} className='h-screen w-full bg-gradient-to-br from-red-900 via-black to-dark-gray'>
       <div className='max-w-screen-lg mx-auto flex md:flex-row 
       items-center flex-col justify-center h-full px-4 text-white '>
         <div className='flex flex-col justify-center h-full'>

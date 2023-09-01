@@ -62,7 +62,7 @@ const Experience = () => {
       ];
 
   return (
-    <div name={Locale.NavBar.NavExp} className=' bg-gradient-to-b from-gray-800
+    <div name={Locale.NavBar.NavExp} className=' bg-gradient-to-b from-dark-gray
      to-black w-full h-screen'>
         <div className=' max-w-screen-lg mx-auto p-4 flex flex-col
          w-full h-full text-white'>
