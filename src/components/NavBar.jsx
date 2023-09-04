@@ -32,7 +32,7 @@ const NavBar = () => {
 
   return (
     <div className='flex justify-between items-center
-    w-full h-20 fixed text-white bg-black px-4 z-[5]'>
+    w-full h-20 fixed text-white bg-dark-gray px-4 z-[5] shadow-lg'>
       <div className=' flex flex-row items-end justify-center'>
         <button className='text-5xl font-signature ml-2'
          onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>

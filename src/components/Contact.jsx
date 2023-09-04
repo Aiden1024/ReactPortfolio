@@ -44,8 +44,8 @@ const Contact = () => {
 
             </form>
 
-            <div className='md:flex flex-col text-center h-full hidden px-10 mx-auto w-1/3'>
-              <div className=' text-6xl py-12 font-bold'>
+            <div className='md:flex flex-col h-full hidden px-10 mx-auto w-1/3'>
+              <div className=' text-4xl lg:text-5xl xl:text-6xl py-12 font-bold justify-between items-start'>
                 <h2 className='text-red-500'>TWINBLADES</h2>
                 <h2 >DEVELOP</h2>
               </div>

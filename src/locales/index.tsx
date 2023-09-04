@@ -1,6 +1,8 @@
 import CN from "./cn";
 import EN from "./en";
 
+import { merge } from "../utils/merge";
+
 export type { RequiredLocaleType } from "./cn";
 
 
@@ -43,5 +45,9 @@ export function changeLang(Lang: string) {
     localStorage.setItem('currLang', DEFAULT_LANG);
   }
 
-  const fallbackLang = (current_lang === "en" ? EN : CN);
-  export default fallbackLang as typeof CN;
+  const fallbackLang = CN;
+  const targetLang = (current_lang === "en" ? EN : CN);
+
+  merge(fallbackLang, targetLang);
+  
+  export default targetLang as typeof CN;

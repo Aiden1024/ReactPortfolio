@@ -14,8 +14,9 @@ const SocialLinks = () => {
         </>
       ),
 
-      href: '/WeChatIDCard.jpg',
-      style: 'rounded-tr-md'
+      href: '/weChat_encrypt_tested.jpg',
+      style: 'rounded-tr-md',
+      download: true,
     },
     {
       id: 2,
@@ -53,7 +54,7 @@ const SocialLinks = () => {
   ]
 
   return (
-    <div className="hidden md:flex flex-col top-[35%] left-0 fixed z-10">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed z-10">
       <ul>
         
         {links.map(({id, child, href, style, download}) => (
