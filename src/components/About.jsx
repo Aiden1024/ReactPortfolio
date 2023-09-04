@@ -5,7 +5,7 @@ import {PiGraduationCapDuotone, PiSuitcaseDuotone} from 'react-icons/pi'
 
 function About() {
   return (
-    <div name={Locale.NavBar.NavAbout} className=' w-full min-h-screen bg-gradient-to-b
+    <div name={Locale.NavBar.NavAbout} className=' w-full min-h-screen bg-gradient-to-bl
      from-dark-gray via-black to-dark-gray text-white'>
       <div className=' max-w-screen-lg p-4 mx-auto flex flex-col
         w-full h-full'>

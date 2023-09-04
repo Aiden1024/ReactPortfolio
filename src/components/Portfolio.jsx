@@ -15,7 +15,10 @@ const Portfolio = () => {
     {
       id: 1,
       src: TBDV,
-      title:"Tiwnblades Develop Portfolio Page",
+      title:"TB Dev Portfolio Page",
+      date:"2023.08",
+      framework:"React JS, tailwind CSS",
+      position: "Frontend",
       subtitle1:"Framework: React JS, tailwind CSS",
       subtitle2:"Position: Personal Design",
       text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam nihil minus error ab harum non adipisci laboriosam cupiditate, quod suscipit praesentium nisi a corrupti eaque doloremque quibusdam sed et. Atque."
@@ -70,7 +73,7 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
         {
-            portfolios.map(({ id, src, title, subtitle1, subtitle2, text }) => (
+            portfolios.map(({ id, src, title, date, framework, position }) => (
             <div key={id} className="hover:shadow-lg overflow-hidden hover:shadow-rose-700 duration-150 rounded-lg  bg-[#212121] ">
               <div className=" bg-cover relative overflow-hidden group/img ">
                 <img
@@ -81,18 +84,26 @@ const Portfolio = () => {
                 
                   <div className="absolute bottom-0 left-0 right-0 top-0 h-full
                   w-full overflow-hidden bg-[#212121]
-                  opacity-90 transition duration-300 ease-in-out -translate-x-full group-hover/img:-translate-x-10">
+                  opacity-75 transition duration-300 ease-in-out -translate-x-full group-hover/img:-translate-x-10">
                     <div className=" p-4 ml-10 opacity-0 group-hover/img:opacity-100 duration-500 ">
+                      {date}
+                      <br />
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, aspernatur doloremque! Molestiae repudiandae veniam commodi aperiam delectus, eaque unde! Iste, pariatur? Consequatur ullam quidem veniam dignissimos, quam neque unde dolorem.
                     </div>
                   </div>
               </div>
                 
 
-                <div className=" group/text px-4 py-4 flex flex-col ">
+                <div className=" group/text px-4 py-2 flex flex-col ">
                   <h2 className=" text-xl font-bold h-16">{title}</h2>
-                  <h2 className=" text-sm">{subtitle1}</h2>
-                  <h2 className=" text-md">{subtitle2}</h2>
+                  
+                  <h2 className=" text-md font-bold">Framework</h2>
+                  <h2 className=" text-sm">{framework}</h2>
+
+                  <h2 className=" text-md font-bold">Position</h2>
+                  <h2 className=" text-sm">{position}</h2>
+                  
+                  
                   <p className=" text-sm text-gray-300 py-4">{}</p>
 
                   <div className="flex flex-row items-center ">
