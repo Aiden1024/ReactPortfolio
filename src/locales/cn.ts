@@ -9,7 +9,7 @@ const cn = {
 
     Home: {
         Title: "",
-        SubTitle: "浩瀚宇宙中的粒粒星尘，茫茫人海间的芸芸众生。\n总会有地上的生灵，敢于直面雷霆的威光。\n我是平凡之人，但绝不平庸。",
+        SubTitle: "浩瀚宇宙中的粒粒星尘，茫茫人海间的芸芸众生。\n总会有地上的生灵，敢于直面雷霆的威光。\n我们只是平凡，但绝不平庸。",
         Button: "作品集"
     },
 
@@ -42,25 +42,32 @@ const cn = {
         Framework: "框架",
         Position: "职责",
         Project1: {
-            ProjectTitle: "TB Dev个人主页",
+            ProjectTitle: "TB DEV个人主页",
             ProjectFramework: "React JS, tailwind CSS",
             PositionDescription:"前端开发，个人开发",
-            ProjectDescription: "测试测试测试测试",
+            ProjectDescription: "\"我们只是平凡，但绝不平庸\"\n 来自深圳湾公园地铁D出口的墙面广告，甚是喜欢。",
             Date: "2023.08 - Now",
         },
         Project2: {
-            ProjectTitle: "区块链中心",
-            ProjectFramework: "MERN组合",
+            ProjectTitle: "The BC HUB",
+            ProjectFramework: "React Bootstrap, MERN Stack",
             PositionDescription:"前端开发，团队管理",
-            ProjectDescription: "测试测试测试测试",
-            Date: "2021.01 - 2021.04",
+            ProjectDescription: "The BC(区块链) HUB，让每个人都能了解和使用加密货币。学习交流，新闻获取，货币趋势，社区分享。",
+            Date: "2022.01 - 2022.05 ",
         },
         Project3: {
-            ProjectTitle: "",
-            ProjectFramework: "",
-            PositionDescription:"",
+            ProjectTitle: "社团管理APP",
+            ProjectFramework: "Flutter, Google Firebase",
+            PositionDescription:"移动开发，前后端开发，数据库管理",
+            ProjectDescription: "UTM的华人社团管理APP，为效率管理而生，因运维人力而卒。后来明白，不是管理没效率，而是干部不执行。",
+            Date: "2022.08 - 2023.01 ",
+        },
+        Project4: {
+            ProjectTitle: "Arduino遥控车",
+            ProjectFramework: "Arduino, Uno, Motor, Radio Control",
+            PositionDescription:"遥控软件开发, 硬件设计组装",
             ProjectDescription: "",
-            Date: "",
+            Date: "2022.06 - 2022.08 ",
         },
     },
 

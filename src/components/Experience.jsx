@@ -15,49 +15,49 @@ const Experience = () => {
           id: 1,
           src: html,
           title: "HTML",
-          style: "shadow-orange-500",
+          style: "hover:shadow-orange-500",
         },
         {
           id: 2,
           src: css,
           title: "CSS",
-          style: "shadow-blue-500",
+          style: "hover:shadow-blue-500",
         },
         {
           id: 3,
           src: javascript,
           title: "JavaScript",
-          style: "shadow-yellow-500",
+          style: "hover:shadow-yellow-500",
         },
         {
           id: 4,
           src: reactImage,
           title: "React",
-          style: "shadow-blue-600",
+          style: "hover:shadow-blue-600",
         },
         {
           id: 5,
           src: tailwind,
           title: "Tailwind",
-          style: "shadow-sky-400",
+          style: "hover:shadow-sky-400",
         },
         {
           id: 6,
           src: nextjs,
           title: "Next JS",
-          style: "shadow-white",
+          style: "hover:shadow-white",
         },
         {
           id: 7,
           src: graphql,
           title: "GraphQL",
-          style: "shadow-pink-400",
+          style: "hover:shadow-pink-400",
         },
         {
           id: 8,
           src: github,
           title: "GitHub",
-          style: "shadow-gray-400",
+          style: "hover:shadow-gray-400",
         },
       ];
 
@@ -68,7 +68,7 @@ const Experience = () => {
          w-full h-full text-white'>
             <div className=' pb-8'>
                 <p className=' text-4xl font-bold border-b-4 
-                border-gray-500 inline'>{Locale.Experience.Title}</p>
+                border-rose-700 inline'>{Locale.Experience.Title}</p>
                 <p className=' py-4'> {Locale.Experience.SubTitle} </p>
             </div>
 
@@ -76,8 +76,8 @@ const Experience = () => {
              text-center sm:px-0'>
                 {
                     techs.map(({id, src, title, style}) =>(
-                    <div key={id} className={` shadow-md hover:scale-105 duration-500
-                      py-2 rounded-md ${style}`}>
+                    <div key={id} className={`hover:shadow-md duration-300
+                      py-2 rounded-md bg-[#212121] ${style}`}>
                     <img src={src} alt="" className=' w-20 mx-auto' />
                     <p>{title}</p>
                 </div>

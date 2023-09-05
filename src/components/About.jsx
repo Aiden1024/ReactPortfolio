@@ -12,7 +12,7 @@ function About() {
 
         <div className=' pb-8'>
             <p className=' text-4xl font-bold inline border-b-4
-             border-gray-500'>{Locale.About.Title}</p>
+             border-rose-700'>{Locale.About.Title}</p>
              <div className=' pt-4'>
               {Locale.About.Subtitle}
              </div>
