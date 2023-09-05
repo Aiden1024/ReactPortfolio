@@ -9,6 +9,8 @@ import BcHub from "../assets/portfolio/BcHub.png";
 import TBDV from "../assets/portfolio/TBDV.jpg";
 import UTMCSSA from "../assets/portfolio/UTMCSSA.jpg";
 import RcCar from "../assets/portfolio/RcCar.jpg";
+import JPNB from "../assets/portfolio/JPNoteBook.jpg";
+import miniK from "../assets/portfolio/miniK.jpg";
 import Locale from '../locales/index';
 
 const Portfolio = () => {
@@ -62,11 +64,25 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: installNode,
+      src: JPNB,
+      title: Locale.Portfolio.Project5.ProjectTitle,
+      date: Locale.Portfolio.Project5.Date,
+      framework:Locale.Portfolio.Project5.ProjectFramework,
+      position: Locale.Portfolio.Project5.PositionDescription,
+      description: Locale.Portfolio.Project5.ProjectDescription,
+      code: "https://github.com/Aiden1024/TB-Data-Analytics/tree/master/Project",
+      demo: "",
     },
     {
       id: 6,
-      src: reactWeather,
+      src: miniK,
+      title: Locale.Portfolio.Project6.ProjectTitle,
+      date: Locale.Portfolio.Project6.Date,
+      framework:Locale.Portfolio.Project6.ProjectFramework,
+      position: Locale.Portfolio.Project6.PositionDescription,
+      description: Locale.Portfolio.Project6.ProjectDescription,
+      code: "https://github.com/Aiden1024/CSC324a4/tree/master",
+      demo: "",
     },
   ];
 

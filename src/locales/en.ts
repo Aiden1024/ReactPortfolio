@@ -71,6 +71,20 @@ const en : RequiredLocaleType = {
             ProjectDescription: "One of the best memory in summer 2022. The fullfilled of my hardware dream, thanks to the buddies from UBC engineering.",
             Date: "2022.06 - 2022.08",
         },
+        Project5: {
+            ProjectTitle: "Python Data ",
+            ProjectFramework: "Python, Numpy, Panda, Sklearn",
+            PositionDescription:"Programming",
+            ProjectDescription: "",
+            Date: "2022.09 - 2022.12 ",
+        },
+        Project6: {
+            ProjectTitle: "MiniKanren Proof Checker",
+            ProjectFramework: "Racket",
+            PositionDescription:"Programming",
+            ProjectDescription: "",
+            Date: "2021.12 - 2022.01 ",
+        },
     },
 
     Experience: {
