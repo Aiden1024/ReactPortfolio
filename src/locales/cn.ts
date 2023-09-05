@@ -39,6 +39,29 @@ const cn = {
         SubTitle: "代码不会欺骗，但有时注释会。",
         Demo: "演示",
         Code: "代码",
+        Framework: "框架",
+        Position: "职责",
+        Project1: {
+            ProjectTitle: "TB Dev个人主页",
+            ProjectFramework: "React JS, tailwind CSS",
+            PositionDescription:"前端开发，个人开发",
+            ProjectDescription: "测试测试测试测试",
+            Date: "2023.08 - Now",
+        },
+        Project2: {
+            ProjectTitle: "区块链中心",
+            ProjectFramework: "MERN组合",
+            PositionDescription:"前端开发，团队管理",
+            ProjectDescription: "测试测试测试测试",
+            Date: "2021.01 - 2021.04",
+        },
+        Project3: {
+            ProjectTitle: "",
+            ProjectFramework: "",
+            PositionDescription:"",
+            ProjectDescription: "",
+            Date: "",
+        },
     },
 
     Experience: {

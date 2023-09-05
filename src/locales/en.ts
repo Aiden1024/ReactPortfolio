@@ -41,6 +41,29 @@ const en : RequiredLocaleType = {
         SubTitle: "Code never lies, comments sometimes do.",
         Demo: "Demo",
         Code: "Code",
+        Framework: "Framework",
+        Position: "Position",
+        Project1: {
+            ProjectTitle: "TB Dev Personal Page",
+            ProjectFramework: "",
+            PositionDescription:"",
+            ProjectDescription: "",
+            Date: "",
+        },
+        Project2: {
+            ProjectTitle: "",
+            ProjectFramework: "",
+            PositionDescription:"",
+            ProjectDescription: "",
+            Date: "",
+        },
+        Project3: {
+            ProjectTitle: "",
+            ProjectFramework: "",
+            PositionDescription:"",
+            ProjectDescription: "",
+            Date: "",
+        },
     },
 
     Experience: {

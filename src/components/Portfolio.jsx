@@ -15,21 +15,22 @@ const Portfolio = () => {
     {
       id: 1,
       src: TBDV,
-      title:"TB Dev Portfolio Page",
-      date:"2023.08",
-      framework:"React JS, tailwind CSS",
-      position: "Frontend",
-      subtitle1:"Framework: React JS, tailwind CSS",
-      subtitle2:"Position: Personal Design",
-      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam nihil minus error ab harum non adipisci laboriosam cupiditate, quod suscipit praesentium nisi a corrupti eaque doloremque quibusdam sed et. Atque."
+      title: Locale.Portfolio.Project1.ProjectTitle,
+      date: Locale.Portfolio.Project1.Date,
+      framework:Locale.Portfolio.Project1.ProjectFramework,
+      position: Locale.Portfolio.Project1.PositionDescription,
+      description: Locale.Portfolio.Project1.ProjectDescription,
+  
     },
     {
       id: 2,
       src: BcHub,
-      title:"The BC Hub",
-      subtitle1:"Framework:MERN stack",
-      subtitle2:"Role: Personal Design",
-      text: "In the name of tsar.a "
+      title: Locale.Portfolio.Project2.ProjectTitle,
+      date: Locale.Portfolio.Project2.Date,
+      framework:Locale.Portfolio.Project2.ProjectFramework,
+      position: Locale.Portfolio.Project2.PositionDescription,
+      description: Locale.Portfolio.Project2.ProjectDescription,
+  
     },
     {
       id: 3, 
@@ -73,7 +74,7 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
         {
-            portfolios.map(({ id, src, title, date, framework, position }) => (
+            portfolios.map(({ id, src, title, date, framework, position, description}) => (
             <div key={id} className="hover:shadow-lg overflow-hidden hover:shadow-rose-700 duration-150 rounded-lg  bg-[#212121] ">
               <div className=" bg-cover relative overflow-hidden group/img ">
                 <img
@@ -88,26 +89,24 @@ const Portfolio = () => {
                     <div className=" p-4 ml-10 opacity-0 group-hover/img:opacity-100 duration-500 ">
                       {date}
                       <br />
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, aspernatur doloremque! Molestiae repudiandae veniam commodi aperiam delectus, eaque unde! Iste, pariatur? Consequatur ullam quidem veniam dignissimos, quam neque unde dolorem.
+                      {description}
                     </div>
                   </div>
               </div>
                 
 
-                <div className=" group/text px-4 py-2 flex flex-col ">
-                  <h2 className=" text-xl font-bold h-16">{title}</h2>
+                <div className=" group/text px-4 py-4 flex flex-col">
+                  <h2 className=" text-xl font-bold h-12 ">{title}</h2>
                   
-                  <h2 className=" text-md font-bold">Framework</h2>
-                  <h2 className=" text-sm">{framework}</h2>
+                  <h2 className=" text-md font-bold ">{Locale.Portfolio.Framework}</h2>
+                  <h2 className=" text-sm text-gray-300">{framework}</h2>
 
-                  <h2 className=" text-md font-bold">Position</h2>
-                  <h2 className=" text-sm">{position}</h2>
+                  <h2 className=" text-md font-bold">{Locale.Portfolio.Position}</h2>
+                  <h2 className=" text-sm text-gray-300">{position}</h2>
                   
-                  
-                  <p className=" text-sm text-gray-300 py-4">{}</p>
 
-                  <div className="flex flex-row items-center ">
-                    <button className=" bg-transparent hover:border-pink-700 duration-300 text-white hover:text-pink-700 font-bold py-1 px-3 mr-4 rounded-full border-2">
+                  <div className="flex flex-row py-4">
+                    <button className=" bg-transparent hover:border-pink-700 duration-300 text-white hover:text-pink-700 font-bold px-4 mr-4 rounded-full border-2">
                       {Locale.Portfolio.Demo}
                     </button>
                     <button className=" bg-transparent hover:text-pink-700 underline-offset-2 duration-300 text-white font-bold py-2 px-4 rounded-full">
