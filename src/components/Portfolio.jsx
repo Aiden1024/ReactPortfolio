@@ -48,7 +48,7 @@ const Portfolio = () => {
       position: Locale.Portfolio.Project3.PositionDescription,
       description: Locale.Portfolio.Project3.ProjectDescription,
       code: "https://github.com/Aiden1024/CSSA_APP",
-      demo: "",
+      demo: "https://www.bilibili.com/video/BV1Bw411U7qT/?vd_source=476b4ccffaaa1a1a33eff4a4b0638a98",
   
     },
     {
@@ -60,7 +60,7 @@ const Portfolio = () => {
       position: Locale.Portfolio.Project4.PositionDescription,
       description: Locale.Portfolio.Project4.ProjectDescription,
       code: "https://github.com/Aiden1024/AdruinoProject/tree/master/CarTruePower/RC_2",
-      demo: "",
+      demo: "https://www.bilibili.com/video/BV1nh4y1P7Po/?share_source=copy_web&vd_source=439047dd4c361f5ff73b754592b78713",
     },
     {
       id: 5,
@@ -120,7 +120,7 @@ const Portfolio = () => {
                   />
                 
                   <div className="absolute bottom-0 left-0 right-0 top-0 h-full
-                  w-full overflow-hidden bg-gradient-to-b from-pink-800 to-pink-700
+                  w-full overflow-hidden bg-gradient-to-b from-rose-900 to-pink-800
                   opacity-85 transition duration-300 ease-in-out -translate-y-full group-hover/img:-translate-y-0 ">
 
                     <div className=" p-4 opacity-0 group-hover/img:opacity-100 duration-500 justify-center text-center whitespace-pre-wrap">
