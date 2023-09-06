@@ -89,7 +89,8 @@ const Portfolio = () => {
   return (
     <div
       name={Locale.NavBar.NavPortfolio}
-      className=" bg-dark-gray w-full text-white
+      className=" bg-gradient-to-br
+      from-dark-gray via-black to-dark-gray text-white
       min-h-screen "
     >
       <div
@@ -120,7 +121,7 @@ const Portfolio = () => {
                   />
                 
                   <div className="absolute bottom-0 left-0 right-0 top-0 h-full
-                  w-full overflow-hidden bg-gradient-to-b from-rose-900 to-pink-800
+                  w-full overflow-hidden bg-red-800
                   opacity-85 transition duration-300 ease-in-out -translate-y-full group-hover/img:-translate-y-0 ">
 
                     <div className=" p-4 opacity-0 group-hover/img:opacity-100 duration-500 justify-center text-center whitespace-pre-wrap">

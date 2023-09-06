@@ -64,7 +64,7 @@ const cn = {
         },
         Project4: {
             ProjectTitle: "Arduino遥控车",
-            ProjectFramework: "单片机，H桥，马达，NRF24L01，神奇的写字板",
+            ProjectFramework: "单片机，H桥，马达，NRF芯片，写字板",
             PositionDescription:"遥控软件开发, 硬件设计组装",
             ProjectDescription: "2022年疫情暑假搓的遥控车，跌跌撞撞的把一群零件拼在一起，见一次笑一次。当时的热情，甚是怀念。",
             Date: "2022.06 - 2022.08 ",
@@ -80,7 +80,7 @@ const cn = {
             ProjectTitle: "miniKanren逻辑检查机",
             ProjectFramework: "Racket",
             PositionDescription:"编程",
-            ProjectDescription: "此程序检查在miniKanren的基础的逻辑蕴含，Racket制造。\nA -> (B -> C)) -> (B -> (A -> C))",
+            ProjectDescription: "此程序检查在miniKanren的基础的逻辑蕴含，Racket制造。\nA -> (B -> C) -> (B -> (A -> C))",
             Date: "2021.12 - 2022.01 ",
         },
     },

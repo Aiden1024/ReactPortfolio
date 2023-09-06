@@ -32,9 +32,10 @@ const NavBar = () => {
 
   return (
     <div className='flex justify-between items-center
-    w-full h-20 fixed text-white bg-dark-gray px-4 z-[5] shadow-lg'>
-      <div className=' flex flex-row items-end justify-center'>
-        <button className='text-5xl font-signature ml-2'
+    w-full h-20 fixed text-white bg-dark-gray px-4 z-20 shadow-lg '>
+      
+      <div className=' flex flex-row items-end justify-center z-20'>
+        <button className='text-5xl font-signature ml-2 hover:text-rose-100 duration-200'
          onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
           Crimson1
         </button>
@@ -56,7 +57,7 @@ const NavBar = () => {
         </button>
       </div>
 
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex z-20'>
         {links.map(({id, link}) => (
           <li key={id} className='px-4 cursor-pointer capitalize
           font-medium text-gray-300 hover:scale-105 duration-200 hover:text-red-500'>

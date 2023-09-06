@@ -66,7 +66,7 @@ const en : RequiredLocaleType = {
         },
         Project4: {
             ProjectTitle: "Arduino RC Car",
-            ProjectFramework: "Arduino, Uno, Motor, Radio Control",
+            ProjectFramework: "Motor, H-Bridgr, NRF24L01, Clipboard",
             PositionDescription:"Software, Hardware design & assemble",
             ProjectDescription: "One of the best memory in summer 2022. The fullfilled of my hardware dream, thanks to the buddies from UBC engineering.",
             Date: "2022.06 - 2022.08",
@@ -82,7 +82,7 @@ const en : RequiredLocaleType = {
             ProjectTitle: "MiniKanren Proof Checker",
             ProjectFramework: "Racket",
             PositionDescription:"Programming",
-            ProjectDescription: "This project is a basic proof checker for purely implicational minimal logic in miniKanren, made in Racket \nA -> (B -> C)) -> (B -> (A -> C))",
+            ProjectDescription: "This project is a basic proof checker for purely implicational minimal logic in miniKanren, made in Racket \nA -> (B -> C) -> (B -> (A -> C))",
             Date: "2021.12 - 2022.01 ",
         },
     },

@@ -30,11 +30,23 @@ const Home = () => {
             </div>
         </div>
 
-        <div>
+        <div className=' relative flex justify-center items-center group'>
             <img src={HeroImage} alt="profile pic" 
-            className=' mx-auto lg:flex w-full  hidden px-2
-             hover:scale-105 duration-300 ' 
+            className=' mx-auto lg:flex w-full  hidden px-2 bg-transparent
+             duration-300 z-10 ml-4 group-hover:scale-110' 
             style={{width: 600}}/>
+
+            <div className="absolute bg-transparent
+                  w-1/2 h-1/2 overflow-hidden border-2
+                  opacity-85 transition duration-300 group-hover:rotate-45">
+
+            </div>
+
+            <div className="absolute bg-transparent
+                  w-1/2 h-1/2 overflow-hidden border-4
+                  opacity-85 transition duration-300 rotate-45 border-red-700 group-hover:bg-gray-200 group-hover:border-gray-200">
+
+            </div>
         </div>
       </div>
     </div>

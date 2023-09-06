@@ -40,21 +40,9 @@ const Experience = () => {
           src: tailwind,
           title: "Tailwind",
           style: "hover:shadow-sky-400",
-        },
+        },  
         {
           id: 6,
-          src: nextjs,
-          title: "Next JS",
-          style: "hover:shadow-white",
-        },
-        {
-          id: 7,
-          src: graphql,
-          title: "GraphQL",
-          style: "hover:shadow-pink-400",
-        },
-        {
-          id: 8,
           src: github,
           title: "GitHub",
           style: "hover:shadow-gray-400",
@@ -62,8 +50,8 @@ const Experience = () => {
       ];
 
   return (
-    <div name={Locale.NavBar.NavExp} className=' bg-gradient-to-b from-dark-gray
-     to-black w-full h-screen'>
+    <div name={Locale.NavBar.NavExp} className=' bg-gradient-to-br
+    from-dark-gray via-black to-dark-gray w-full h-screen'>
         <div className=' max-w-screen-lg mx-auto p-4 flex flex-col
          w-full h-full text-white'>
             <div className=' pb-8'>
