@@ -122,7 +122,7 @@ const Portfolio = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
         {
             portfolios.map(({ id, src, title, date, framework, position, description, code, demo, demoStyle, disabled}) => (
-            <div key={id} className="hover:shadow-lg overflow-hidden hover:shadow-rose-700 duration-150 rounded-lg  bg-[#212121] ">
+            <div key={id} className="hover:shadow-lg overflow-hidden hover:shadow-rose-700 duration-200 rounded-lg  bg-[#212121] ">
               <div className=" bg-cover relative overflow-hidden group/img ">
                 <img
                     src={src}
@@ -131,7 +131,7 @@ const Portfolio = () => {
                   />
                 
                   <div className="absolute bottom-0 left-0 right-0 top-0 h-full
-                  w-full overflow-hidden bg-red-800
+                  w-full overflow-hidden bg-gradient-to-b from-rose-800 to-red-800
                   opacity-85 transition duration-300 ease-in-out -translate-y-full group-hover/img:-translate-y-0 ">
 
                     <div className=" p-4 opacity-0 group-hover/img:opacity-100 duration-500 justify-center text-center whitespace-pre-wrap">
