@@ -1,10 +1,4 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import BcHub from "../assets/portfolio/BcHub.png";
 import TBDV from "../assets/portfolio/TBDV.jpg";
 import UTMCSSA from "../assets/portfolio/UTMCSSA.jpg";
@@ -12,6 +6,10 @@ import RcCar from "../assets/portfolio/RcCar.jpg";
 import JPNB from "../assets/portfolio/JPNoteBook.jpg";
 import miniK from "../assets/portfolio/miniK.jpg";
 import Locale from '../locales/index';
+
+const demoNormal = "hover:border-red-700 duration-300 text-white hover:text-red-700"
+const demoGray = "text-gray-500 border-gray-500"
+
 
 const Portfolio = () => {
   const portfolios = [
@@ -25,6 +23,8 @@ const Portfolio = () => {
       description: Locale.Portfolio.Project1.ProjectDescription,
       code: "https://github.com/Aiden1024/ReactPortfolio",
       demo: "https://aiden1024.github.io/ReactPortfolio/",
+      demoStyle:demoNormal,
+      disabled: false,
   
     },
     {
@@ -37,6 +37,8 @@ const Portfolio = () => {
       description: Locale.Portfolio.Project2.ProjectDescription,
       code: "https://github.com/UTSCCSCC01/finalprojectw22-bc-hub",
       demo: "https://www.bilibili.com/video/BV14r4y197ZV/?spm_id_from=333.999.0.0&vd_source=476b4ccffaaa1a1a33eff4a4b0638a98",
+      demoStyle:demoNormal,
+      disabled: false,
   
     },
     {
@@ -49,6 +51,8 @@ const Portfolio = () => {
       description: Locale.Portfolio.Project3.ProjectDescription,
       code: "https://github.com/Aiden1024/CSSA_APP",
       demo: "https://www.bilibili.com/video/BV1Bw411U7qT/?vd_source=476b4ccffaaa1a1a33eff4a4b0638a98",
+      demoStyle:demoNormal,
+      disabled: false,
   
     },
     {
@@ -61,6 +65,8 @@ const Portfolio = () => {
       description: Locale.Portfolio.Project4.ProjectDescription,
       code: "https://github.com/Aiden1024/AdruinoProject/tree/master/CarTruePower/RC_2",
       demo: "https://www.bilibili.com/video/BV1nh4y1P7Po/?share_source=copy_web&vd_source=439047dd4c361f5ff73b754592b78713",
+      demoStyle:demoNormal,
+      disabled: false,
     },
     {
       id: 5,
@@ -72,6 +78,8 @@ const Portfolio = () => {
       description: Locale.Portfolio.Project5.ProjectDescription,
       code: "https://github.com/Aiden1024/TB-Data-Analytics/tree/master/Project",
       demo: "",
+      demoStyle:demoGray,
+      disabled: true,
     },
     {
       id: 6,
@@ -83,6 +91,8 @@ const Portfolio = () => {
       description: Locale.Portfolio.Project6.ProjectDescription,
       code: "https://github.com/Aiden1024/CSC324a4/tree/master",
       demo: "",
+      demoStyle:demoGray,
+      disabled: true,
     },
   ];
 
@@ -111,7 +121,7 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
         {
-            portfolios.map(({ id, src, title, date, framework, position, description, code, demo}) => (
+            portfolios.map(({ id, src, title, date, framework, position, description, code, demo, demoStyle, disabled}) => (
             <div key={id} className="hover:shadow-lg overflow-hidden hover:shadow-rose-700 duration-150 rounded-lg  bg-[#212121] ">
               <div className=" bg-cover relative overflow-hidden group/img ">
                 <img
@@ -147,8 +157,8 @@ const Portfolio = () => {
                     
      
                     <a href={demo} target="_blank">
-                      <button className=" bg-transparent hover:border-pink-700 duration-300 text-white
-                      hover:text-pink-700 px-4 mr-4 py-1 rounded-full border-2 ">
+                      <button className={` bg-transparent ${demoStyle} px-4 mr-4 py-1 rounded-full border-2 `}
+                       disabled={disabled}>
                       {Locale.Portfolio.Demo}
                       </button>
                     </a>
@@ -156,7 +166,7 @@ const Portfolio = () => {
 
           
                     <a href={code} target="_blank">
-                      <button className=" bg-transparent hover:text-pink-700 underline-offset-2 duration-300 text-white py-2 px-4 rounded-full"
+                      <button className=" bg-transparent hover:text-red-700 underline-offset-2 duration-300 text-white py-2 px-4 rounded-full"
                       >
                         {Locale.Portfolio.Code}
                       </button>

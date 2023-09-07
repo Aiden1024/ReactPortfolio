@@ -14,7 +14,9 @@ module.exports = {
       ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
       pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       bounce: 'bounce 1s infinite',
-      'spin-slow': 'spin 3s linear infinite',
+      'spin-slow': 'spin 5s linear infinite',
+      'reverse-spin-slow': 'reverse-spin 5s linear infinite',
+      'reverse-spin': 'reverse-spin 1s linear infinite'
     },
     aria: {
       busy: 'busy="true"',
@@ -52,6 +54,7 @@ module.exports = {
       'gradient-to-bl': 'linear-gradient(to bottom left, var(--tw-gradient-stops))',
       'gradient-to-l': 'linear-gradient(to left, var(--tw-gradient-stops))',
       'gradient-to-tl': 'linear-gradient(to top left, var(--tw-gradient-stops))',
+      'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
     },
     backgroundOpacity: ({ theme }) => theme('opacity'),
     backgroundPosition: {
@@ -553,6 +556,11 @@ module.exports = {
       spin: {
         to: {
           transform: 'rotate(360deg)',
+        },
+      },
+      'reverse-spin': {
+        from: {
+          transform: 'rotate(360deg)'
         },
       },
       ping: {

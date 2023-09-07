@@ -33,18 +33,21 @@ const Home = () => {
         <div className=' relative flex justify-center items-center group'>
             <img src={HeroImage} alt="profile pic" 
             className=' mx-auto lg:flex w-full  hidden px-2 bg-transparent
-             duration-300 z-10 ml-4 group-hover:scale-110' 
+             duration-300 z-10 ml-10 group-hover:scale-110' 
             style={{width: 600}}/>
 
-            <div className="absolute bg-transparent
-                  w-1/2 h-1/2 overflow-hidden border-2
-                  opacity-85 transition duration-300 group-hover:rotate-45">
+            <div className="absolute 
+                  w-1/4 h-1/4 overflow-hidden border-4 border-red-700 
+                  opacity-85  duration-1000 bg-transparent
+                  group-hover:rotate-[450deg] group-hover:w-1/2 group-hover:h-1/2 ">
 
             </div>
 
-            <div className="absolute bg-transparent
-                  w-1/2 h-1/2 overflow-hidden border-4
-                  opacity-85 transition duration-300 rotate-45 border-red-700 group-hover:bg-gray-200 group-hover:border-gray-200">
+            <div className="absolute
+                  w-1/2 h-1/2 overflow-hidden z-[8]
+                  opacity-85 bg-gray-200 rounded-full border-4
+                   duration-1000 transform-gpu group-hover:bg-black group-hover:rounded-sm group-hover:rotate-45
+                   shadow-[0_0px_50px_10px_rgb(0,0,0,0.3)] shadow-red-700">
 
             </div>
         </div>
