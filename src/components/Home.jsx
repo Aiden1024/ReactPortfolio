@@ -34,7 +34,7 @@ const Home = () => {
             <img src={HeroImage} alt="profile pic" 
             className=' mx-auto lg:flex w-full  hidden px-2 bg-transparent
              duration-500 z-10 ml-10 group-hover:scale-110' 
-            style={{width: 600}}/>
+            style={{width: 500, height: 520}}/>
 
             <div className="absolute 
                   w-1/4 h-1/4 overflow-hidden border-4 border-red-700 
@@ -46,7 +46,7 @@ const Home = () => {
             <div className="absolute
                   w-1/2 h-1/2 overflow-hidden z-[8]
                   opacity-85 bg-gradient-radial from-zinc-900 to-stone-950 rounded-full border-4 border-gray-300
-                   duration-1000 transform-gpu group-hover:bg-black group-hover:rounded-sm group-hover:rotate-45
+                   duration-1000 transform group-hover:bg-black group-hover:rounded-none group-hover:rotate-45
                    shadow-[0_0px_50px_5px_rgb(0,0,0,0.3)] shadow-red-700">
 
             </div>
