@@ -145,12 +145,12 @@ const Portfolio = () => {
                   <img
                     src={src}
                     alt=""
-                    className=" group-hover/img:blur-sm group-hover/img:brightness-75 ease-in-out duration-300"
+                    className=" group-hover/img:blur-sm group-hover/img:brightness-[0.4] ease-in-out duration-300"
                   />
 
                   <div
                     className="absolute bottom-0 left-0 right-0 top-0 h-full
-                  w-full overflow-hidden bg-gradient-to-b from-red-900 via-red-700 to-red-700
+                  w-full overflow-hidden bg-[#333333] bg-opacity-10
                   opacity-85 transition duration-300 ease-in-out -translate-y-full group-hover/img:-translate-y-0 "
                   >
                     <div className=" p-4 justify-center text-center whitespace-pre-wrap">

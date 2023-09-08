@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div
       name={Locale.NavBar.NavContact}
-      className=" w-full min-h-screen md:h-screen bg-gradient-to-br
+      className=" w-full h-screen bg-gradient-to-br
      from-black via-black to-red-950 p-4"
     >
       <div className=" h-full justify-between flex flex-col max-w-screen-lg text-white mx-auto p-4">
@@ -89,13 +89,13 @@ const Contact = () => {
           </div>
         </div>
 
-        <div>
+        <div className=" mb-14">
           <div className="flex flex-row items-center justify-center">
             {links.map(({ id, child, href, download }) => (
-              <div key={id} className={` justify-between flex flex-row px-4 py-2`}>
+              <div key={id} className={`  flex flex-row px-4 py-2`}>
                 <a
                   href={href}
-                  className="flex justify-between items-center w-full text-slate-600 hover:text-red-50 duration-200"
+                  className=" items-center w-full text-slate-600 hover:text-red-50 duration-200"
                   download={download}
                   target="_blank"
                   rel="noreferrer"
