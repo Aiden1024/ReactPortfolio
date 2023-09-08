@@ -14,7 +14,7 @@ export const links = [
       </>
     ),
 
-    href: '/weChat_encrypt_tested.jpg',
+    href: '/ReactPortfolio/weChat_encrypt_tested.jpg',
     style: 'rounded-tr-md',
     download: true,
   },
@@ -49,7 +49,7 @@ export const links = [
       </>
     ),
 
-    href: "/resume_cn.pdf",
+    href: "/ReactPortfolio/resume_cn.pdf",
     style: 'rounded-br-md',
     download: true,
     
