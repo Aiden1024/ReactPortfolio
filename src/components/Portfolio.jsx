@@ -110,6 +110,7 @@ const Portfolio = () => {
           <div className="flex flex-row justify-start items-center">
             <div className=" h-full text-xs text-transparent py-3 mr-2 bg-gradient-to-tr from-red-700 to-red-500">
               11
+
             </div>
 
             <p
