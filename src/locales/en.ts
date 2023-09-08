@@ -47,7 +47,7 @@ const en : RequiredLocaleType = {
             ProjectTitle: "TB DEV Personal Page",
             ProjectFramework: "React JS, tailwind CSS",
             PositionDescription:"Frontend",
-            ProjectDescription: "Twinblades, one for the enemy, one for the heart. Always fear the death, else life is worthless.",
+            ProjectDescription: "Change, everything you are, and everything you were. Reactive, Responsive Web Application, powered by React & Tailwind.",
             Date: "2023.08 - Now",
         },
         Project2: {
