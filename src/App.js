@@ -17,7 +17,7 @@ function App(props) {
       <Portfolio/>
       <Experience/>
       <Contact/>
-      <BottomBar/>
+      {/* <BottomBar/> */}
     </div>
   );
 }
