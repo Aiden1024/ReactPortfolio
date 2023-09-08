@@ -12,16 +12,20 @@ const Contact = () => {
   return (
     <div
       name={Locale.NavBar.NavContact}
-      className=" w-full h-screen bg-gradient-to-br
+
+      className=" w-full md:h-screen min-h-screen bg-gradient-to-br
+
      from-black via-black to-red-950 p-4"
     >
       <div className=" h-full justify-between flex flex-col max-w-screen-lg text-white mx-auto p-4">
         <div>
           <div className=" ">
             <div className="flex flex-row justify-start items-center">
-              <div className=" h-full text-transparent py-3 px-0 mr-2 bg-gradient-to-tr from-red-700 to-red-500 rounded-sm">
-                <LuRectangleVertical />
-              </div>
+
+            <div className=" h-full text-xs text-transparent py-3 mr-2 bg-gradient-to-tr from-red-700 to-red-500">
+              11
+            </div>
+
               <p
                 className=" text-4xl font-bold inline
                 "
@@ -105,7 +109,9 @@ const Contact = () => {
               </div>
             ))}
           </div>
-          <div className=" text-sm text-slate-500 flex flex-col justify-center items-center ">
+
+          <div className=" text-sm text-slate-500 flex flex-col sm:flex-row justify-center items-center ">
+
             <div className=" flex flex-row justify-center items-center ">
               Powered by
               <span className=" px-1 animate-spin-slow">
@@ -114,8 +120,11 @@ const Contact = () => {
               <span className=" px-1">
                 <SiTailwindcss />
               </span>
-              <h2 className=" pl-6">@2023 - TWINBLADES DEVELOP</h2>
+
+              
             </div>
+            <h2 className=" sm:pl-6">@2023 - TWINBLADES DEVELOP</h2>
+
           </div>
         </div>
       </div>
