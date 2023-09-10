@@ -15,7 +15,7 @@ const Home = () => {
         className="max-w-screen-lg mx-auto flex md:flex-row 
       items-center flex-col justify-center h-full px-4 text-white "
       >
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-center h-full lg:items-start lg:text-start items-center text-center">
           <h2 className="sm:text-7xl text-4xl font-bold text-white flex flex-col">
             <span className=" text-red-500">TWINBLADES</span> DEVELOP
           </h2>
