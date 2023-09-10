@@ -99,7 +99,7 @@ const Portfolio = () => {
     <div
       name={Locale.NavBar.NavPortfolio}
       className=" bg-gradient-to-br
-      from-dark-gray via-black to-dark-gray text-white
+      from-dark-gray to-dark-gray text-white
       min-h-screen "
     >
       <div

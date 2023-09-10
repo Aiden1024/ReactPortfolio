@@ -5,7 +5,6 @@ import About from './components/About'
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
-import BottomBar from "./components/BottomBar";
 function App(props) {
 
   return (
@@ -17,7 +16,6 @@ function App(props) {
       <Portfolio/>
       <Experience/>
       <Contact/>
-      {/* <BottomBar/> */}
     </div>
   );
 }

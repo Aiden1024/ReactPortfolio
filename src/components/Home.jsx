@@ -9,7 +9,7 @@ const Home = () => {
     // To transfer screen template, mobile: flex-col, pc: md:flex-row
     <div
       name={Locale.NavBar.NavHome}
-      className="h-screen w-full bg-gradient-to-br from-red-900 via-black to-dark-gray"
+      className="h-screen w-full bg-gradient-to-br from-red-900 via-dark-gray to-dark-gray"
     >
       <div
         className="max-w-screen-lg mx-auto flex md:flex-row 

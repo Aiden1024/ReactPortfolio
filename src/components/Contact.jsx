@@ -1,21 +1,18 @@
 import React from "react";
-import { LuRectangleVertical } from "react-icons/lu";
-
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import Locale from "../locales/index";
 import { GrReactjs } from "react-icons/gr";
 import { SiTailwindcss } from "react-icons/si";
 import { links } from "./SocialLinks";
-import BottomBar from "./BottomBar";
 
 const Contact = () => {
   return (
     <div
       name={Locale.NavBar.NavContact}
 
-      className=" w-full md:h-screen min-h-screen bg-gradient-to-br
+      className=" w-full md:h-screen min-h-screen bg-gradient-to-b
 
-     from-black via-black to-red-950 p-4"
+     from-dark-gray via-dark-gray to-[#151515] p-4"
     >
       <div className=" h-full justify-between flex flex-col max-w-screen-lg text-white mx-auto p-4">
         <div>
@@ -93,7 +90,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className=" mb-14">
+        <div className=" mb-16 ">
           <div className="flex flex-row items-center justify-center">
             {links.map(({ id, child, href, download }) => (
               <div key={id} className={`  flex flex-row px-4 py-2`}>
