@@ -32,7 +32,7 @@ const en : RequiredLocaleType = {
             Title:"Work Experience",
             Job1:"Shenzhen Media Group CUTV- Shenzhen, China",
             Type:"Internship",
-            Description1:"Frontend Develop: Use of Vue, React in the web deployment."
+            Description1:"Assisting the project \"Shenzhen Media Digital AI tool\" by analyse the component function and adding comments.\nAcquired Vue, React from the above project and use the skills to create a Portfolio Web Application."
         },
     },
 
