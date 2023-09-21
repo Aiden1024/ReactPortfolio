@@ -156,7 +156,7 @@ const Experience = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={` hover:shadow-red-700 hover:scale-110 duration-200
+              className={`hover:shadow-lg hover:scale-110 duration-200
                       py-2 rounded-md bg-[#212121] hover:bg-[#303030] shadow-md`}
             >
               <img src={src} alt="" className=" w-20 mx-auto" />

@@ -140,7 +140,7 @@ const Portfolio = () => {
             }) => (
               <div
                 key={id}
-                className="shadow-md hover:shadow-red-700 overflow-hidden hover:bg-[#303030] duration-300 rounded-lg  bg-[#212121] "
+                className="shadow-md overflow-hidden hover:bg-[#303030] duration-300 rounded-lg  bg-[#212121] "
               >
                 <div className=" bg-cover relative overflow-hidden group/img ">
                   <img
