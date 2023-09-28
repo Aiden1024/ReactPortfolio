@@ -94,7 +94,7 @@ function About() {
         {/* Education Card - High School*/}
         <div className=" py-2">
           <div className="flex flex-col font-bold justify-start sm:flex-row sm:justify-between items-center">
-            <h2>2023.08 - Now </h2>
+            <h2>2023.08 - 2023.10 </h2>
             <a
               href="https://www.szmg.com.cn/"
               target="_blank"
